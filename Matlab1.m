@@ -1,1 +1,2 @@
-fprintf("Hello github");
+
+x=1:1:3;
