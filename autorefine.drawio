@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T12:59:42.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.11" etag="rwvWmlkQV691e8wOQqUK" type="github"><diagram id="80Zg5Co0fV94Rc4LMnu7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-01T06:33:32.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="h7IOlNSDHJKzSgtHL7Zu" version="14.7.3" type="github">
+  <diagram id="80Zg5Co0fV94Rc4LMnu7" name="Page-1">
+    <mxGraphModel dx="564" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-30" value="expectationOneParticle(###)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="830" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-1" value="initialization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="97.5" y="40" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-2" value="deal with multi-body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="87.5" y="80" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-1" target="5V1SxkkwevjAqyg1K5yf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-3" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="107.5" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-2" target="5V1SxkkwevjAqyg1K5yf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="206.5" y="114" width="31" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-3" target="5V1SxkkwevjAqyg1K5yf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-8" value="if has multi-body and it&#39;s angular accuracy is worse than 1.5x the sampling rat&lt;br&gt;ignore this body" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="226.5" y="118" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-11" value="initialization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="97.5" y="160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-3" target="5V1SxkkwevjAqyg1K5yf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-13" value="get the image&#39;s fourier and CTF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="97.5" y="196" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-11" target="5V1SxkkwevjAqyg1K5yf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-16" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="107.5" y="240" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-13" target="5V1SxkkwevjAqyg1K5yf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" target="5V1SxkkwevjAqyg1K5yf-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="187.5" y="249.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-19" value="condition: the currently image has oversampling: do twice below" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="206.5" y="233.5" width="31" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-22" value="getAllSquaredDifferences(###)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="62.5" y="275" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-16" target="5V1SxkkwevjAqyg1K5yf-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-24" value="Calculate the squared difference terms inside the Gaussian kernel for all hidden variables" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="232.5" y="280" width="490" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-25" value="convertAllSquaredDifferencesToWeights(###)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="20" y="320" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-22" target="5V1SxkkwevjAqyg1K5yf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-26" value="&lt;div&gt;Now convert the squared difference terms to weights,&lt;/div&gt;&lt;div&gt;also calculate exp_sum_weight, and in case of adaptive oversampling also exp_significant_weight&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="275" y="320" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-28" value="over" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5V1SxkkwevjAqyg1K5yf-30">
+          <mxGeometry x="117.5" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5V1SxkkwevjAqyg1K5yf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5V1SxkkwevjAqyg1K5yf-30" source="5V1SxkkwevjAqyg1K5yf-25" target="5V1SxkkwevjAqyg1K5yf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
